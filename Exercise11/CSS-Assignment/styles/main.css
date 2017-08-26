@@ -1,3 +1,169 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
+}
+/* Main body settings */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+/* main head */
+
+head {
+    display: none;
+}
+
+.main {
+    margin: 0 auto;
+    width: 960px;
+}
+
+section {
+    clear: both;
+    margin: 10px auto;
+
+}
+
+.header1 {
+    margin: 10px 0;
+}
+
+.header1 .headerimg {
+    display: block;
+    margin: 10px;
+}
+
+/* top navigation */
+
+.header1 nav {
+    background: #a00;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.header1 nav a {
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px 15px;
+}
+
+/* settings for the pictures for main body */
+
+.banner .banner1 {
+    float: left;
+    padding: 10px;
+    width: 66.666666%;
+}
+
+.banner .banner2 {
+    float: right;
+    padding: 10px;
+    width: 33.33333%;
+}
+
+.banner1 .banner2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* main section settings */
+
+section .section-header {
+    color: #a00;
+    border: 1px solid #a00;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+/* image gallery */
+
+.image-gallery {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.image-gallery li {
+    float: left;
+    width: 20%;
+}
+
+/* This begins the article and footer settings */
+
+section .articlelist {
+    float: left;
+    margin-top: 10px;
+    width: 66.66666%;
+    padding-right: 20px;
+    border-right: 1px solid rgb(170, 0, 0);
+}
+
+.articlelist article {
+    border-bottom: 1px solid rgb(170, 0, 0);
+}
+
+.articlelist article img {
+    float: left;
+    max-width: 50%;
+    padding: 10px;
+}
+
+
+
+a {
+    color: rgb(170, 0, 0);
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+section>aside {
+    width: 33.333%;
+    float: right;
+}
+
+.sponsors>.sponsor-ads>img {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    padding: 20px 0;
+}
+
+footer>h3 {
+    float: left;
+    margin: 0px;
+}
+
+section>aside>section>h3 {
+    text-align: center;
+}
+
+footer>nav {
+    float: right;
+}
+
+footer>nav>a {
+    padding: 0 10px;
+}
+
+p {
+    display: block;
+}
+
+.articlelist article,
+footer {
+    overflow: hidden
 }
