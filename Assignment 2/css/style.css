@@ -1,0 +1,153 @@
+/* Ultimate CSS by Nikki X */
+
+body {
+    background-color: #000;
+}
+
+
+
+/* Main Content */
+main {
+    width: 960px;
+    margin: auto;
+    color:#30396D;
+    font-family: "Helvetica", Arial;
+}
+
+/* link settings */
+
+.top a {
+    color: white;
+    text-decoration: none;
+}
+
+a   :hover {
+    text-decoration: underline;
+}
+
+
+/* Top Header with Image */
+.top {
+    background: url(../images/sky.jpeg) no-repeat;
+    width: 960px;
+    height: 429px;
+}
+
+.top nav {
+    float: right;
+}
+
+.top nav li {
+    display: inline-block;
+    padding: 2px;
+}
+
+.top h1 {
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+.top h3 {
+    text-align: center;
+    color: white;
+}
+
+/* Body Content */
+#content {
+    width: 75%;
+    float: left;
+}
+
+
+/* Quote */
+.quote {
+border: 3px solid black;
+text-align: center;
+font-style: italic;
+}
+
+
+
+/* Sidebar */
+
+aside {
+    margin-bottom: 10px;
+}
+
+#sidebar {
+    width: 20%;
+    float: right;
+}
+
+#categories {
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+}
+
+#tags {
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+}
+
+
+#categories a {
+  color:  #30396D;
+}
+
+#picture {
+margin-right: 5px;
+border-bottom-style: solid;
+padding-bottom: 20px;
+}
+
+
+#sidebar img {
+    border-style: solid;
+    border-width: 5px;
+    width: 100%;
+}
+
+#tags li {
+    list-style: none;
+    border: 1px solid;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 3px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #30396D;
+    color: white;
+    clear: both;
+}
+
+footer nav {
+    float: left;
+    width: 25%;
+    padding: 20px;
+
+}
+
+.clear {
+    clear: both;
+}
+
+footer nav li {
+    list-style: none;
+    padding: 5px;
+}
+
+#social li {
+    border: solid 1px white;
+    margin: 30px;
+    width: 250px;
+    text-align: center;
+}
+
+#social a {
+    color: white;
+    text-decoration: none;
+}
