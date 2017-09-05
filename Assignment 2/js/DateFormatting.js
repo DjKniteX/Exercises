@@ -159,6 +159,11 @@ getShortDateTime();
 getLongDateTime();
 getExtendedDateTime();
 
+//bottom of DateFormatting.js
+    var getMonthYear = DateFormatter.getMonthYear(new Date());
+    console.log('Get Month Year ' + getMonthYear);
+
+
 /* 
 getShortTime - returns a the date's time with hours, minutes and AM or PM
 Example: "4:20 PM", "3:00 AM"
