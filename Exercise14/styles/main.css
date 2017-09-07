@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width:500px;
+    margin:20px auto;
+}
+
+body {
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  .box {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .inputs input, .inputs textarea, .inputs select {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .conditions {
+      padding: 10px;
+
+  }
+  
+  .control-panel {
+    text-align: center;
+  }
+  .control-panel button {
+    font-size: 20px;
+  }
+  
