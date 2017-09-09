@@ -7,11 +7,6 @@ body {
     margin:20px auto;
 }
 
-body {
-    width: 300px;
-    margin: 50px auto;
-  }
-  
   .box {
     padding: 10px;
     text-align: center;
@@ -35,4 +30,14 @@ body {
   .control-panel button {
     font-size: 20px;
   }
+
+  li {
+    color: red;
+    font-size: 20px;
+  }
   
+
+  .invaild {
+    border-color: red;
+    background-color: red; 
+  }
