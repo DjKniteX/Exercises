@@ -8,7 +8,6 @@ document.getElementById("btnUpdate1").addEventListener("click", reset);
 function submit() {
   //Array
   var errorList = [];
-  var email = getValue('emailAddress');
   //Username
 
   var userName = getElm('userName');
@@ -20,7 +19,7 @@ function submit() {
   }
 
   //Email
-
+  var email = getValue('emailAddress');
   if (email.indexOf('@') === -1) {
     errorList.push("Please enter an email address");
     document.getElementById('emailAddress').style.borderColor = "red";
