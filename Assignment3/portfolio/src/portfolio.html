@@ -16,6 +16,46 @@
     <!-- Custom styles for this template -->
     <link href="styles/style.css" rel="stylesheet">
 
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+      }
+      
+      .container:hover .overlay {
+        width: 100%;
+      }
+      
+      .text {
+        white-space: nowrap; 
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      </style>
   </head>
 
   <body>
@@ -59,10 +99,11 @@
           <!-- Portfolio Item Row -->
           <div class="row">
     
-            <div class="col-md-8">
-              <a href="http://github.com/djknitex">
-              <img class="img-fluid" src="images/computer.png" alt="">
-              </a>
+            <div class="container">
+              <img src="images/computer.png" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">Join my coding adventures!</div>
+              </div>
             </div>
     
             <div class="col-md-4">
