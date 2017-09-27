@@ -1,3 +1,8 @@
-/* Click on this picture and it should show my resume */
+$(document).ready (function() {
+    $('.text').on('click', function () {
+        alert("I don't have a resume sucker")
+    });
 
-document.getElementsByClassName("text").click("")
+
+
+});
