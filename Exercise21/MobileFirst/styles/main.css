@@ -111,21 +111,50 @@ footer>nav>a {
     display:block;
 }
 
-@media screen and (min-width: 800px) and (max-width: 4068px) {
-    * {
-        box-sizing: border-box;
-        width: 960px;
-    }
-    
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        padding: 0;
+@media screen and (min-width: 800px){
+    footer nav,
+    header nav,
+    section,
+    footer {
+        max-width: 960px;
         margin: auto;
+    }
+    .main-header nav a {
+        display: inline-block;
+    }
+    .main-header nav {
+        border-radius: 25px;
+        text-align: center;
+    }
+ 
+    .hero img, .hero {
         width: auto;
-        float: right;
+        padding: 10px;
+        text-align: center;
     }
 
-.main-container {
-    
+    .article-list {
+        float: left;
+        width: 60%;
+    }
+
+
+    .article-list article img {
+        float: left;
+        width: 50%;
+    }
+    aside {
+        float: right;
+        width: 33%;
+    }
+
+    footer {
+        text-align: center;
+    }
+    footer nav a {
+        float: right;
+    }
+    footer h3 {
+        float: left;
+    }
 }
