@@ -1,0 +1,32 @@
+/*
+    Q1 - Write a media query for desktop first.  The break point needs to be at 960px;
+*/
+@media (max-width: 960px) {
+
+}
+
+
+
+
+/*
+    Q2 - Write a media query for mobile first.  The break point needs to be at 720px;
+*/
+@media (max-width: 720px){
+
+}
+
+
+
+/*
+    Q3 - What CSS property are you having the most trouble figuring out?
+
+    - Margin and Padding. Just don't know when to use them well.
+*/
+
+
+/*
+    Q4 - What is the best CSS property and why?
+
+    - Best CSS property is border-radius; You can make cool images with them.
+*/
+
